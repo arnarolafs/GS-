@@ -2,5 +2,8 @@
 #Arnar Ólafsson
 #26.01.17
 
-text = open("texti.txt" "w")
+text = open("texti.txt","w")
+text.write("halló heimur")
+text.close()
+
 
