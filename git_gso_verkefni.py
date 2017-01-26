@@ -10,5 +10,9 @@ text.write("Þetta er lína 1 ")
 text.write("þetta er lína 2 ")
 text.write("þetta er lína 3 ")
 text.close()
+text = open("texti.txt", "r")
+print(text.read())
+text.close()
+
 
 
